@@ -1,0 +1,15 @@
+Forecast for <b>{{city}}</b> is below ,<br><br>
+
+<!-- {{weatherResult.dt}}<br>
+
+{{weatherResult.main.temp}} -->
+
+
+
+<div>
+    <div class="row">
+        <div class="col-md-12">
+            <weather-report weather-day="weatherResult" convert-to-standard="convertToCelcius(daytimeTemp)" convert-to-date="convertToDate(convDate)" date-format="MMM d, y"></weather-report>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="panel panel-default">
+
+                <div class="panel-heading">
+                    <h3 class="panel-title"><b>Date/Time:</b> {{convertToDate({convDate:weatherDay.dt}) | date: dateFormat}}</h3>
+                </div>
+
+                <div class="panel-body">
+                    <b>Average temperature:</b> {{convertToStandard({daytimeTemp:weatherDay.main.temp})}}C
+                </div>
+
+
+            </div>
